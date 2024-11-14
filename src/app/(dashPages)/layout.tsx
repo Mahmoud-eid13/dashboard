@@ -22,7 +22,7 @@ export default function DashboardLayout({
         <Menu />
       </div>
       {/* right */}
-      <div className="w-[86%] h-screen md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F8FA] overflow-auto">
+      <div className="w-[86%] h-screen md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F8FA] overflow-auto flex flex-col">
         <Navbar />
         {children}
       </div>
