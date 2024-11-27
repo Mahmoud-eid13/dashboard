@@ -77,6 +77,7 @@ const AttendanceChart = () => {
             fill="#C3EBFA"
             legendType="circle"
             radius={[10, 10, 0, 0]}
+            // git //
           />
         </BarChart>
       </ResponsiveContainer>
